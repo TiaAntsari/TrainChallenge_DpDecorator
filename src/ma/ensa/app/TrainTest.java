@@ -29,13 +29,13 @@ public class TrainTest {
 		System.out.println("##################### WITH EMPTY WAGON ##################");
 		trainAbs = new Empty(trainAbs);
 		System.out.println(trainAbs.getDescription());
-		System.out.println("##################### WITH LOADED ##################");
+		System.out.println("##################### WITH LOADED WAGON ##################");
 		trainAbs = new Loaded(trainAbs);
 		System.out.println(trainAbs.getDescription());
 		System.out.println("##################### WITH HEAD ##################");
 		trainAbs = new Head(trainAbs);
 		System.out.println(trainAbs.getDescription());
-		System.out.println("##################### PREViEW TRAIN ##################");
+		System.out.println("##################### PREVIOUS TRAIN ##################");
 		System.out.println(((Train) trainAbs).getTrainAbs().getDescription());
 	}
 
